@@ -1,11 +1,11 @@
 /* 个人简历样式 */
 
 .yxz-resume ol {
-  list-style:disc;
+  list-style: disc;
 }
 
-.yxz-resume ol > li:nth-child(n+1){
-    margin-bottom: 1rem;
+.yxz-resume ol > li:nth-child(n + 1) {
+  margin-bottom: 1rem;
 }
 
 /* 一级标题 */
@@ -18,7 +18,31 @@
 }
 
 /* 加粗 */
-.yxz-strong{
-    padding:.3rem;
-    color:#de8344;
+.yxz-strong {
+  padding: 0.3rem;
+  color: #de8344;
+}
+
+.sticky-item {
+  position: sticky;
+  top: 0;
+  background-color: #f6f6f6;
+  z-index: 3;
+}
+
+.subtitle {
+  margin: 16px 0 0;
+}
+
+.h-strong {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.project-list > .item {
+  margin-top: 30px;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
 }
